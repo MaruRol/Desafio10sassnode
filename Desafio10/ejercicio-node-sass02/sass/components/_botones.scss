@@ -1,0 +1,29 @@
+@use "../utilities/mixins" as mi;
+
+.boton-index {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 1rem;
+  background-color: #000;
+  color: #fff;
+
+  @include mi.celu() {
+    display: block;
+    text-align: center;
+
+  }
+}
+
+.boton-impresion {
+  @extend .boton-index;
+  background-color: #56A4FF;
+  color: #000;
+}
+
+.boton-robotica {
+  @extend .boton-index;
+  background-color: #c13584;
+  color: #fff;
+}

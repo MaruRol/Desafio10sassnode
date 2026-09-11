@@ -1,0 +1,46 @@
+@use "../utilities/variables";
+@use "../utilities/mixins" as mi;
+
+nav {
+  background-color: variables.$nav_fondo;
+
+  ul {
+    list-style: none;
+    display: flex;
+
+    @include mi.celu() {
+      flex-direction: column;
+      text-align: center;
+
+    }
+
+    @include mi.tablet() {
+      justify-content: center;
+    }
+
+    li {
+      margin: 2rem;
+
+      @include mi.celu() {
+        margin: 1rem;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+
+      }
+
+      a {
+        display: block;
+        padding: 1rem;
+        text-decoration: none;
+        color: variables.$nav_letra;
+        font-weight: bold;
+
+        &:hover {
+          background-color: variables.$nav_hover_fondo;
+          color: variables.$nav_hover_letra;
+        }
+      }
+    }
+
+  }
+
+}

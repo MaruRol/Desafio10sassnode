@@ -1,0 +1,20 @@
+@mixin estilo-card($color-fondo, $radio) {
+  background-color: $color-fondo;
+  color: white;
+  border-radius: $radio;
+  padding: 15px;
+  margin: 10px;
+}
+
+@mixin celu($mecel: 768px){
+    @media screen and (max-width:$mecel){
+        @content
+    }
+}
+
+
+@mixin tablet($medidas: 1024px){
+    @media screen and (max-width:$medidas){
+        @content
+    }
+}

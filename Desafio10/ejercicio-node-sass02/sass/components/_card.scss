@@ -1,0 +1,9 @@
+@use "../utilities/mixins" as mix;
+
+.card-primera {
+    @include mix.estilo-card(blue, 5px);
+}
+
+.card-segunda {
+    @include mix.estilo-card(black, 25px);
+}

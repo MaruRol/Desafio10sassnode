@@ -1,0 +1,179 @@
+/* * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+
+/* body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #EEF7FF;
+    color: #333;
+    line-height: 1.6;
+
+} */
+
+/* header {
+    background-color: #005f73;
+    color: #fff;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+nav {
+    background-color: #0a9396;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    display: block;
+    padding: 1rem;
+
+}
+
+nav ul li a {
+
+    text-decoration: none;
+    padding: 1rem;
+    color: #fff;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    background-color: #EEF7FF;
+    color: #000;
+} */
+
+/* main {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+
+
+main section {
+    background-color: #ffffff;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    border-left: 5px solid #0a9396;
+
+}
+
+main section h2 {
+    margin-top: 0;
+    color: #005f73;
+    border-bottom: 2px solid #eef7ff;
+    padding-bottom: 0.5rem;
+} */
+
+
+/* .boton-index {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+    background-color: #000;
+    color: #fff;
+}
+
+.boton-impresion {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+    background-color: #56A4FF;
+    color: #000;
+}
+
+.boton-robotica {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+    background-color: #c13584;
+    color: #fff;
+} */
+
+
+/* .card-primera {
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 10px;
+}
+
+.card-segunda {
+  background-color: black;
+  color: white;
+  border-radius: 25px;
+  padding: 15px;
+  margin: 10px;
+} */
+
+/* footer {
+    background-color: #005f73;
+    color: white;
+    text-align: center;
+    padding: 0.8rem;
+    margin-top: 2rem;
+} */
+
+/* --- Media Query para Tablets (768px a 1024px) --- */
+/* @media (max-width: 900px) {
+    nav ul {
+        justify-content: center;
+    }
+
+    main {
+        padding: 1.5rem;
+    }
+
+    header h1 {
+        font-size: 2.5rem;
+    }
+} */
+
+/* --- Media Query para Mobile (Menos de 768px) --- */
+/* @media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul li {
+        margin: 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header h2 {
+        font-size: 1.2rem;
+    }
+
+    main {
+        padding: 1rem;
+    }
+
+    section h2 {
+        font-size: 1.5rem;
+    }
+
+    .btn-index {
+        display: block;
+        text-align: center;
+    }
+} */

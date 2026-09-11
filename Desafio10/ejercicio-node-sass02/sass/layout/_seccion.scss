@@ -1,0 +1,41 @@
+@use "../utilities/mixins" as mi;
+
+main {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: justify;
+
+    @include mi.celu() {
+        padding: 1rem;
+
+    }
+
+    @include mi.tablet() {
+        padding: 1.5rem;
+    }
+}
+
+
+
+main section {
+    background-color: #ffffff;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    border-left: 5px solid #0a9396;
+
+}
+
+main section h2 {
+    margin-top: 0;
+    color: #005f73;
+    border-bottom: 2px solid #eef7ff;
+    padding-bottom: 0.5rem;
+
+    @include mi.celu() {
+        font-size: 1.5rem;
+
+    }
+}

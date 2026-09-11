@@ -1,0 +1,9 @@
+organización en carpetas
+
+*- utilities --> variables // mixins
+
+*- base --> reset // body
+
+*- layout --> header // nav // seccion // footer
+
+*- components --> botones // card // carrusel
